@@ -11,28 +11,28 @@
 
 <script>
 export default {
-  name: "HomeSwiper",
-  data() { //ES6写法，直接用data()，ES5的话要 data:function()
+  name: 'HomeSwiper',
+  data () { // ES6写法，直接用data()，ES5的话要 data:function()
     return {
       swiperOption: {
-        pagination: ".swiper-pagination",
-        loop:true //允许循环轮播
+        pagination: '.swiper-pagination',
+        loop: true// 允许循环轮播
       },
       swiperList: [
         {
-          id: "0001",
+          id: '0001',
           imgUrl:
-            "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20197/e02cceb2dbbfcd2871cdb7531cf311f1.jpg_750x200_63d3d88b.jpg"
+            'http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20197/e02cceb2dbbfcd2871cdb7531cf311f1.jpg_750x200_63d3d88b.jpg'
         },
         {
-          id: "0002",
+          id: '0002',
           imgUrl:
-            "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20196/c36914f22fdb82d2b8878cbf6dddac98.jpg_750x200_4a63da4b.jpg"
+            'http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20196/c36914f22fdb82d2b8878cbf6dddac98.jpg_750x200_4a63da4b.jpg'
         }
       ]
-    };
+    }
   }
-};
+}
 </script>
 
 <style lang="stylus" scoped>
@@ -52,5 +52,3 @@ export default {
   }
 }
 </style>
-
-
