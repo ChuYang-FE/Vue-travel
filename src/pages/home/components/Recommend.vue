@@ -2,7 +2,7 @@
     <div>
         <div class="title">热销推荐</div>
         <ul>
-            <li class="item border-bottom" v-for="item of recommendList" :key="item.id">
+            <li class="item border-bottom" v-for="item of list" :key="item.id">
                 <img class="item-img" :src="item.imgUrl">
                 <div class="item-info">
                     <p class="item-title">{{item.title}}</p>
@@ -17,26 +17,8 @@
 <script>
 export default {
     name: 'HomeRecommend',
-    data () {
-        return {
-            recommendList:[{
-            id:'0001',
-            imgUrl:'http://img1.qunarzz.com/sight/p0/1709/41/411f234d79457081a3.img.jpg_250x250_30e841af.jpg',
-            title:'长隆野生动物世界',
-            desc:'长隆野生动物世界长隆野生动物世界长隆野生动物世界'
-            }, {
-            id:'0002',
-            imgUrl:'http://img1.qunarzz.com/sight/p0/1707/d8/d89ab1a9b2ab355ba3.img.jpg_250x250_dc7083b2.jpg',
-            title:'长隆水上乐园',
-            desc:'长隆水上乐园长隆水上乐园长隆水上乐园长隆水上乐园'
-            }, {
-            id:'0003',
-            imgUrl:'http://img1.qunarzz.com/sight/p0/1707/88/889ae02b07140066a3.img.jpg_250x250_d4ca7f0a.jpg',
-            title:'长隆欢乐世界',
-            desc:'长隆欢乐世界长隆欢乐世界长隆欢乐世界长隆欢乐世界'
-            }]
-            
-        }
+    props: {
+        list: Array
     }
 }
 </script>
