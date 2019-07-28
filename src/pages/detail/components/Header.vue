@@ -8,7 +8,6 @@
                 <div class="iconfont header-fixed-back">&#xe60e;</div>
             </router-link>
         </div>
-        <div class="content"></div>
     </div>
 </template>
 
@@ -49,8 +48,6 @@ export default {
 
 <style lang="stylus" scoped>
     @import '~styles/varibles.styl'
-    .content
-        height 50rem
     .header-abs
         position absolute
         left .2rem
@@ -65,6 +62,7 @@ export default {
             color #ccc
             font-size .4rem
     .header-fixed
+        z-index 2 
         position fixed
         top 0
         left 0
