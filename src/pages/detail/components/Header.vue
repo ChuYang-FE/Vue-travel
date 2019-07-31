@@ -22,12 +22,6 @@ export default {
             }
         }
     },
-    activated () {
-        window.addEventListener('scroll', this.handleScroll)
-    },
-    deactivated () {
-        window.removeEventListener('scroll', this.handleScroll)
-    },
     methods: {
         handleScroll () {
             const top = document.documentElement.scrollTop
@@ -35,13 +29,19 @@ export default {
                 let opacity = top / 140
                 opacity = opacity > 1 ? 1 : opacity
                 this.opacityStyle = {
-                    opacity:opacity
+                    opacity
                 }
                 this.showAbs = false
             }else {
                 this.showAbs = true
             }
         }
+    },
+    activated () {
+        window.addEventListener('scroll', this.handleScroll)
+    },
+    deactivated () {
+        window.removeEventListener('scroll', this.handleScroll)
     }
 }
 </script>
