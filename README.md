@@ -6,18 +6,18 @@
 
 **首页👇**
 
-![image](https://github.com/CoderTyy/Vue-app/blob/master/home.gif)
+<img src="./home.gif" alt="首页" height="600px">
 
 <hr>
 
 **详情页👇**
 
-![image](https://github.com/CoderTyy/Vue-app/blob/master/detail.gif)
+<img src="./detail.gif" alt="详情页" height="600px">
 
 <hr>
 
 **城市搜索及选择页👇**
 
-![image](https://github.com/CoderTyy/Vue-app/blob/master/city.gif)
+<img src="./city.gif" alt="城市搜索及选择页" height="600px">
 
 **Young丶TCY✿**
