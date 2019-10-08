@@ -6,18 +6,24 @@
 
 **首页👇**
 
-<img src="./home.gif" alt="首页" height="600px">
+<img src="./GIF/首页.gif" alt="首页" height="600px">
 
 <hr>
 
 **详情页👇**
 
-<img src="./detail.gif" alt="详情页" height="600px">
+<img src="./GIF/详情页.gif" alt="详情页" height="600px">
 
 <hr>
 
-**城市搜索及选择页👇**
+**城市字母表选择👇**
 
-<img src="./city.gif" alt="城市搜索及选择页" height="600px">
+<img src="./GIF/字母表.gif" alt="城市搜索及选择页" height="600px">
+
+<hr>
+
+**城市搜索及选择👇**
+
+<img src="./GIF/城市搜索.gif" alt="城市搜索及选择页" height="600px">
 
 **Young丶TCY✿**
